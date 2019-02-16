@@ -62,6 +62,6 @@ ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.tpp \
 ITMLib/Engines/Visualisation/Shared/ITMVisualisationEngine_Shared.h \
     +- Add semantic rendering function based on some utils in ITMRepresentationAccess.h
 
-# All the modules are modified in both CPU and GPU version except CRF optimization
-# which is currently commented for real-time application
-# Any questions regarding this code source can be sent to zhangyic@student.ethz.ch
+#### All the modules are modified in both CPU and GPU version except CRF optimization
+#### which is currently commented for real-time application
+#### Any questions regarding this code source can be sent to zhangyic@student.ethz.ch
