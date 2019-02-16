@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libMiniSlamGraphLib.a  CMakeFiles/MiniSlamGraphLib.dir/GraphEdge.cpp.o CMakeFiles/MiniSlamGraphLib.dir/GraphEdgeSE3.cpp.o CMakeFiles/MiniSlamGraphLib.dir/LevenbergMarquardtMethod.cpp.o CMakeFiles/MiniSlamGraphLib.dir/MatrixWrapper.cpp.o CMakeFiles/MiniSlamGraphLib.dir/PoseGraph.cpp.o CMakeFiles/MiniSlamGraphLib.dir/SlamGraph.cpp.o CMakeFiles/MiniSlamGraphLib.dir/SlamGraphErrorFunction.cpp.o CMakeFiles/MiniSlamGraphLib.dir/QuaternionHelpers.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libMiniSlamGraphLib.a

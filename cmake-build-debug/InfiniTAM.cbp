@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="InfiniTAM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Apps\;CMake Files\Apps\InfiniTAM\;CMake Files\Apps\InfiniTAM_cli\;CMake Files\cmake\;CMake Files\FernRelocLib\;CMake Files\InputSource\;CMake Files\ITMLib\;CMake Files\MiniSlamGraphLib\;CMake Files\ORUtils\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InfiniTAM">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/InfiniTAM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add option="-DCOMPILE_WITHOUT_OpenNI"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 InfiniTAM"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InfiniTAM/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/InfiniTAM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add option="-DCOMPILE_WITHOUT_OpenNI"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 InfiniTAM/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InfiniTAM_cli">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/InfiniTAM_cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add option="-DCOMPILE_WITHOUT_OpenNI"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 InfiniTAM_cli"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InfiniTAM_cli/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/InfiniTAM_cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add option="-DCOMPILE_WITHOUT_OpenNI"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 InfiniTAM_cli/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/Apps/InfiniTAM_cli/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FernRelocLib">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/libFernRelocLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 FernRelocLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FernRelocLib/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/libFernRelocLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 FernRelocLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/FernRelocLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InputSource">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/libInputSource.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add option="-DCOMPILE_WITHOUT_Kinect2"/>
+					<Add option="-DCOMPILE_WITHOUT_OpenNI"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 InputSource"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InputSource/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/libInputSource.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add option="-DCOMPILE_WITHOUT_Kinect2"/>
+					<Add option="-DCOMPILE_WITHOUT_OpenNI"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 InputSource/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/InputSource/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITMLib">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/libITMLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 ITMLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITMLib/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/libITMLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 ITMLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ITMLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiniSlamGraphLib">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/libMiniSlamGraphLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 MiniSlamGraphLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiniSlamGraphLib/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/libMiniSlamGraphLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 MiniSlamGraphLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/MiniSlamGraphLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ORUtils">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/libORUtils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 ORUtils"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ORUtils/fast">
+				<Option output="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/libORUtils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCOMPILE_WITHOUT_CUDA"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 ORUtils/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake-build-debug/ORUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM/InfiniTAM.cpp">
+			<Option target="InfiniTAM"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM/UIEngine.cpp">
+			<Option target="InfiniTAM"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM/UIEngine.h">
+			<Option target="InfiniTAM"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM_cli/CLIEngine.cpp">
+			<Option target="InfiniTAM_cli"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM_cli/CLIEngine.h">
+			<Option target="InfiniTAM_cli"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM_cli/InfiniTAM_cli.cpp">
+			<Option target="InfiniTAM_cli"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/FernConservatory.cpp">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/FernConservatory.h">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/PixelUtils.h">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/PoseDatabase.cpp">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/PoseDatabase.h">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/RelocDatabase.cpp">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/RelocDatabase.h">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/Relocaliser.h">
+			<Option target="FernRelocLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CPUInstantiations.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CRF/densecrf.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CRF/densecrf.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CRF/fastmath.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CRF/permutohedral.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CRF/util.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CRF/util.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CUDAInstantiations.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMBasicEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMBasicEngine.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMBasicSurfelEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMBasicSurfelEngine.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMDenseMapper.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMDenseMapper.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMDenseSurfelMapper.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMDenseSurfelMapper.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMMainEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMMultiEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMMultiEngine.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Core/ITMTrackingController.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/CPU/ITMLowLevelEngine_CPU.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/CPU/ITMLowLevelEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/CUDA/ITMLowLevelEngine_CUDA.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/CUDA/ITMLowLevelEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/ITMLowLevelEngineFactory.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/ITMLowLevelEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/Interface/ITMLowLevelEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/LowLevel/Shared/ITMLowLevelEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CPU/ITMMeshingEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CPU/ITMMeshingEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CPU/ITMMultiMeshingEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CPU/ITMMultiMeshingEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CUDA/ITMMeshingEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CUDA/ITMMeshingEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CUDA/ITMMultiMeshingEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/CUDA/ITMMultiMeshingEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/ITMMeshingEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/ITMMultiMeshingEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/Interface/ITMMeshingEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/Interface/ITMMultiMeshingEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/Shared/ITMMeshingEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Meshing/Shared/ITMMultiMeshingEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/MultiScene/ITMActiveMapManager.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/MultiScene/ITMActiveMapManager.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/MultiScene/ITMGlobalAdjustmentEngine.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/MultiScene/ITMGlobalAdjustmentEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/MultiScene/ITMMapGraphManager.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/MultiScene/ITMMapGraphManager.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CPU/ITMSurfelSceneReconstructionEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CPU/ITMSurfelSceneReconstructionEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CUDA/ITMSceneReconstructionEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CUDA/ITMSceneReconstructionEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CUDA/ITMSurfelSceneReconstructionEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/CUDA/ITMSurfelSceneReconstructionEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/ITMSceneReconstructionEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/ITMSurfelSceneReconstructionEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/ITMSurfelSceneReconstructionEngineFactory.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/Interface/ITMSceneReconstructionEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/Interface/ITMSurfelSceneReconstructionEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/Interface/ITMSurfelSceneReconstructionEngine.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/Shared/ITMSceneReconstructionEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Reconstruction/Shared/ITMSurfelSceneReconstructionEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/CPU/ITMSwappingEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/CPU/ITMSwappingEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/CUDA/ITMSwappingEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/CUDA/ITMSwappingEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/ITMSwappingEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/Interface/ITMSwappingEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Swapping/Shared/ITMSwappingEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/CPU/ITMViewBuilder_CPU.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/CPU/ITMViewBuilder_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/CUDA/ITMViewBuilder_CUDA.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/CUDA/ITMViewBuilder_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/ITMViewBuilderFactory.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/ITMViewBuilderFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/Interface/ITMViewBuilder.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/ViewBuilding/Shared/ITMViewBuilder_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CPU/ITMMultiVisualisationEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CPU/ITMMultiVisualisationEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CPU/ITMSurfelVisualisationEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CPU/ITMSurfelVisualisationEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CPU/ITMVisualisationEngine_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CPU/ITMVisualisationEngine_CPU.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMMultiVisualisationEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMMultiVisualisationEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMSurfelVisualisationEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMSurfelVisualisationEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMVisualisationEngine_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMVisualisationEngine_CUDA.tcu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMVisualisationHelpers_CUDA.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/CUDA/ITMVisualisationHelpers_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/ITMMultiVisualisationEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/ITMSurfelVisualisationEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/ITMSurfelVisualisationEngineFactory.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/ITMVisualisationEngineFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Interface/ITMMultiVisualisationEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Interface/ITMSurfelVisualisationEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Interface/ITMSurfelVisualisationEngine.tpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Interface/ITMVisualisationEngine.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Interface/ITMVisualisationEngine.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Shared/ITMSurfelVisualisationEngine_Settings.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Shared/ITMSurfelVisualisationEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Engines/Visualisation/Shared/ITMVisualisationEngine_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/ITMLibDefines.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Camera/ITMCalibIO.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Camera/ITMCalibIO.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Camera/ITMDisparityCalib.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Camera/ITMExtrinsics.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Camera/ITMIntrinsics.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Camera/ITMRGBDCalib.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Meshing/ITMMesh.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Misc/ITMIMUCalibrator.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Misc/ITMIMUMeasurement.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Misc/ITMPointCloud.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/RenderStates/ITMRenderState.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/RenderStates/ITMRenderStateFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/RenderStates/ITMRenderStateMultiScene.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/RenderStates/ITMRenderState_VH.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/RenderStates/ITMSurfelRenderState.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/RenderStates/ITMSurfelRenderState.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMGlobalCache.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMLocalMap.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMLocalVBA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMMultiSceneAccess.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMPlainVoxelArray.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMRepresentationAccess.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMScene.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMSurfelScene.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMSurfelTypes.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMVoxelBlockHash.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Scene/ITMVoxelTypes.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMDepthHierarchyLevel.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMImageHierarchy.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMIntensityHierarchyLevel.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMRGBHierarchyLevel.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMSceneHierarchyLevel.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMTemplatedHierarchyLevel.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMTrackingState.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/ITMViewHierarchyLevel.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Tracking/TrackerIterationType.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Views/ITMView.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Objects/Views/ITMViewIMU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CPU/ITMColorTracker_CPU.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CPU/ITMColorTracker_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CPU/ITMDepthTracker_CPU.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CPU/ITMDepthTracker_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CPU/ITMExtendedTracker_CPU.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CPU/ITMExtendedTracker_CPU.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CUDA/ITMColorTracker_CUDA.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CUDA/ITMColorTracker_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CUDA/ITMDepthTracker_CUDA.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CUDA/ITMDepthTracker_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CUDA/ITMExtendedTracker_CUDA.cu">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/CUDA/ITMExtendedTracker_CUDA.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/ITMTrackerFactory.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMColorTracker.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMColorTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMCompositeTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMDepthTracker.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMDepthTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMExtendedTracker.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMExtendedTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMFileBasedTracker.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMFileBasedTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMForceFailTracker.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMForceFailTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMIMUTracker.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMIMUTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Interface/ITMTracker.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Shared/ITMColorTracker_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Shared/ITMDepthTracker_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Trackers/Shared/ITMExtendedTracker_Shared.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMCUDAUtils.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMImageTypes.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMLibSettings.cpp">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMLibSettings.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMMath.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMMemoryBlockTypes.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMPixelUtils.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMProjectionUtils.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMSceneParams.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/Utils/ITMSurfelSceneParams.h">
+			<Option target="ITMLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/CompositeImageSourceEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/CompositeImageSourceEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/FFMPEGReader.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/FFMPEGReader.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/FFMPEGWriter.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/FFMPEGWriter.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/IMUSourceEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/IMUSourceEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/IdleImageSourceEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/IdleImageSourceEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/ImageSourceEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/ImageSourceEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/Kinect2Engine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/Kinect2Engine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/LibUVCEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/LibUVCEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/OpenNIEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/OpenNIEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/PicoFlexxEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/PicoFlexxEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/RealSense2Engine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/RealSense2Engine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/RealSenseEngine.cpp">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/RealSenseEngine.h">
+			<Option target="InputSource"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/GraphEdge.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/GraphEdge.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/GraphEdgeSE3.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/GraphEdgeSE3.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/GraphNode.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/GraphNodeSE3.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/LevenbergMarquardtMethod.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/LevenbergMarquardtMethod.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/MatrixWrapper.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/MatrixWrapper.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/Matrix_CSparse.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/ParameterIndex.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/PoseGraph.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/PoseGraph.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/QuaternionHelpers.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/QuaternionHelpers.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/SlamGraph.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/SlamGraph.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/SlamGraphErrorFunction.cpp">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/SlamGraphErrorFunction.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/SparseBlockMatrix.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/SparseRegularBlockMatrix.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/VariableLengthVector.h">
+			<Option target="MiniSlamGraphLib"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/CUDADefines.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/Cholesky.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/FileUtils.cpp">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/FileUtils.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/HomkerMap.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/Image.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/KeyValueConfig.cpp">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/KeyValueConfig.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/LexicalCast.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/MathUtils.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/Matrix.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/MemoryBlock.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/MemoryBlockPersister.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/MemoryDeviceType.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/NVTimer.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/PlatformIndependence.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/SE3Pose.cpp">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/SE3Pose.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/SVMClassifier.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/Vector.h">
+			<Option target="ORUtils"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Apps\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Apps\InfiniTAM\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/Apps/InfiniTAM_cli/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Apps\InfiniTAM_cli\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/Flags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkFFmpeg.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkGLUT.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkLibRoyale.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkOpenGL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkOpenNI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkPNG.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkRealSense.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkRealSense2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/LinkUVC.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/OfferInputMirroring.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/SetCUDAAppTarget.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/SetCUDALibTarget.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/SetLibTarget.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseCUDA.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseFFmpeg.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseGLUT.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseKinect2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseLibRoyale.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseOpenGL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseOpenMP.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseOpenNI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UsePNG.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseRealSense.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseRealSense2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/cmake/UseUVC.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/FernRelocLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FernRelocLib\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/InputSource/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\InputSource\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ITMLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ITMLib\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/MiniSlamGraphLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MiniSlamGraphLib\"/>
+		</Unit>
+		<Unit filename="/Users/zhangyic/Desktop/InfiniTAM_Semantic_v2/InfiniTAM/ORUtils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ORUtils\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

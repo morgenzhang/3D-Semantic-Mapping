@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="InfiniTAM" targetName="FernRelocLib" />
+      <config projectName="InfiniTAM" targetName="InfiniTAM_cli" />
+      <config projectName="InfiniTAM" targetName="ITMLib" />
+      <config projectName="InfiniTAM" targetName="MiniSlamGraphLib" />
+      <config projectName="InfiniTAM" targetName="InputSource" />
+      <config projectName="InfiniTAM" targetName="InfiniTAM" />
+      <config projectName="InfiniTAM" targetName="ORUtils" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2fe10a7-1c82-4ae0-9904-0770c5ce29e9" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="2102324452">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="18" />
+          <entry key="h" value="41" />
+          <entry key="tpp" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="316" />
+          <entry key="h" value="766" />
+          <entry key="tpp" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Doxygen file" value="5" />
+          <entry key="ObjectiveC" value="1121" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.tpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7502">
+              <caret line="346" column="41" selection-start-line="346" selection-start-column="38" selection-end-line="346" selection-end-column="41" />
+              <folding>
+                <element signature="e#90#135#0" expanded="true" />
+                <element signature="e#290#304#0" expanded="true" />
+                <element signature="e#655#669#0" expanded="true" />
+                <element signature="e#831#845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/InfiniTAM/InfiniTAM.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="30" column="171" selection-start-line="30" selection-start-column="171" selection-end-line="30" selection-end-column="171" />
+              <folding>
+                <element signature="e#90#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputSource/ImageSourceEngine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding>
+                <element signature="e#90#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputSource/RealSenseEngine.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/Shared/ITMSceneReconstructionEngine_Shared.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="e#104#163#0" expanded="true" />
+                <element signature="e#215#229#0" expanded="true" />
+                <element signature="e#1595#1609#0" expanded="true" />
+                <element signature="e#3165#3179#0" expanded="true" />
+                <element signature="e#4404#4453#0" expanded="true" />
+                <element signature="e#4495#4509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Scene/ITMVoxelTypes.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="906">
+              <caret line="184" column="2" lean-forward="true" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>requiresDepthReliability</find>
+      <find>requiresColourRendering</find>
+      <find>ITMtracker</find>
+      <find>trackingInitialised</find>
+      <find>ComputeUpdatedVoxelInfo</find>
+      <find>requiresPointCloudRendering</find>
+      <find>TVoxel</find>
+      <find>hasSemanticInformation</find>
+      <find>hasColorInformation</find>
+      <find>FFMPEGReader</find>
+      <find>rgb</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMFileBasedTracker.cpp" />
+        <option value="$PROJECT_DIR$/ITMLib/Core/ITMBasicEngine.tpp" />
+        <option value="$PROJECT_DIR$/ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.tpp" />
+        <option value="$PROJECT_DIR$/ITMLib/Engines/Reconstruction/Shared/ITMSceneReconstructionEngine_Shared.h" />
+        <option value="$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMFileBasedTracker.h" />
+        <option value="$PROJECT_DIR$/ITMLib/Utils/ITMLibSettings.cpp" />
+        <option value="$PROJECT_DIR$/ITMLib/ITMLibDefines.h" />
+        <option value="$PROJECT_DIR$/ITMLib/Objects/Scene/ITMVoxelTypes.h" />
+        <option value="$PROJECT_DIR$/Apps/InfiniTAM/InfiniTAM.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="69" />
+    <option name="y" value="6" />
+    <option name="width" value="1849" />
+    <option name="height" value="1004" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="InputSource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ITMLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ITMLib" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ITMLib" type="462c0819:PsiDirectoryNode" />
+              <item name="Engines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ITMLib" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ITMLib" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
+              <item name="Scene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ITMLib" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniTAM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniTAM" type="462c0819:PsiDirectoryNode" />
+              <item name="ORUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.InfiniTAM">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FernRelocLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="FernRelocLib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ITMLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="ITMLib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfiniTAM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="InfiniTAM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InfiniTAM" RUN_TARGET_NAME="InfiniTAM">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfiniTAM_cli" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="InfiniTAM_cli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InfiniTAM" RUN_TARGET_NAME="InfiniTAM_cli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputSource" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="InputSource" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniSlamGraphLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="MiniSlamGraphLib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORUtils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InfiniTAM" TARGET_NAME="ORUtils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.InfiniTAM" />
+      <item itemvalue="Application.InfiniTAM_cli" />
+      <item itemvalue="Application.FernRelocLib" />
+      <item itemvalue="Application.InputSource" />
+      <item itemvalue="Application.ITMLib" />
+      <item itemvalue="Application.MiniSlamGraphLib" />
+      <item itemvalue="Application.ORUtils" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2fe10a7-1c82-4ae0-9904-0770c5ce29e9" name="Default Changelist" comment="" />
+      <created>1543174500306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543174500306</updated>
+      <workItem from="1543174501931" duration="4610000" />
+      <workItem from="1543219620145" duration="11474000" />
+      <workItem from="1543425142441" duration="717000" />
+      <workItem from="1543478842766" duration="2857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19658000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19679381" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMDepthTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Utils/ITMLibSettings.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMColorTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMColorTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMDepthTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/ITMTrackerFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/RenderStates/ITMRenderState_VH.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/RenderStates/ITMRenderState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Visualisation/Interface/ITMVisualisationEngine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1572">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Visualisation/Interface/ITMVisualisationEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1096" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Visualisation/CPU/ITMVisualisationEngine_CPU.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Visualisation/Shared/ITMVisualisationEngine_Shared.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10064" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMCompositeTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2034">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMForceFailTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMForceFailTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMExtendedTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Shared/ITMExtendedTracker_Shared.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Tracking/ITMTrackingState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1426" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Views/ITMView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/ViewBuilding/ITMViewBuilderFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/RenderStates/ITMRenderStateFactory.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/ViewBuilding/Interface/ITMViewBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMExtendedTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/ITMSceneReconstructionEngineFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/Interface/ITMSceneReconstructionEngine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Scene/ITMScene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Utils/ITMSceneParams.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMFileBasedTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Core/ITMTrackingController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Trackers/Interface/ITMFileBasedTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/InfiniTAM/UIEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3498" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Scene/ITMPlainVoxelArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Core/ITMBasicEngine.tpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6754">
+          <caret line="307" column="80" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Scene/ITMMultiSceneAccess.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="85" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="85" />
+          <folding>
+            <element signature="e#247#261#0" expanded="true" />
+            <element signature="e#591#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Scene/ITMVoxelBlockHash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Utils/ITMLibSettings.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding>
+            <element signature="e#143#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/ITMLibDefines.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#104#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/CPU/ITMSceneReconstructionEngine_CPU.tpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7502">
+          <caret line="346" column="41" selection-start-line="346" selection-start-column="38" selection-end-line="346" selection-end-column="41" />
+          <folding>
+            <element signature="e#90#135#0" expanded="true" />
+            <element signature="e#290#304#0" expanded="true" />
+            <element signature="e#655#669#0" expanded="true" />
+            <element signature="e#831#845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Core/ITMBasicEngine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#104#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputSource/FFMPEGReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1982">
+          <caret line="551" column="26" selection-start-line="551" selection-start-column="14" selection-end-line="551" selection-end-column="26" />
+          <folding>
+            <element signature="e#185#204#0" expanded="true" />
+            <element signature="e#476#15612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputSource/ImageSourceEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="e#90#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputSource/ImageSourceEngine.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/InfiniTAM/InfiniTAM.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="30" column="171" selection-start-line="30" selection-start-column="171" selection-end-line="30" selection-end-column="171" />
+          <folding>
+            <element signature="e#90#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputSource/FFMPEGReader.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputSource/RealSenseEngine.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputSource/RealSenseEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Engines/Reconstruction/Shared/ITMSceneReconstructionEngine_Shared.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#104#163#0" expanded="true" />
+            <element signature="e#215#229#0" expanded="true" />
+            <element signature="e#1595#1609#0" expanded="true" />
+            <element signature="e#3165#3179#0" expanded="true" />
+            <element signature="e#4404#4453#0" expanded="true" />
+            <element signature="e#4495#4509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITMLib/Objects/Scene/ITMVoxelTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="184" column="2" lean-forward="true" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
