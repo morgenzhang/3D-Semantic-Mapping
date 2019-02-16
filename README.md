@@ -6,7 +6,7 @@ InfiniTAM Semantic Mapping *** Yichen Zhang
 
 Running Command
 *******************************************
-cd /path/to/your/workspace
+cd /path/to/your/workspace \
 mkdir build
 cd build
 cmake /path/to/InfiniTAM
