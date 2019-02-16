@@ -7,23 +7,23 @@ InfiniTAM Semantic Mapping *** Yichen Zhang
 Running Command
 *******************************************
 cd /path/to/your/workspace \
-mkdir build
-cd build
-cmake /path/to/InfiniTAM
-./Apps/InfiniTAM/InfiniTAM /path/to/camera_calibration.txt /path/to/RGB/%04i.png /path/to/Depth/%04i.png /path/to/Semantic_Prob/%04i.png
-    +- libpng is required
-    +- I store the format of label probability(multiplied by 20000) as png image(uint16)
+mkdir build \
+cd build \
+cmake /path/to/InfiniTAM \
+./Apps/InfiniTAM/InfiniTAM /path/to/camera_calibration.txt /path/to/RGB/%04i.png /path/to/Depth/%04i.png /path/to/Semantic_Prob/%04i.png \
+    +- libpng is required \
+    +- I store the format of label probability(multiplied by 20000) as png image(uint16) \
 
 Code Description (modification based on InfiniTAM v3) 
 *******************************************
-Utils/ITMLibSetting.cpp
-    +- Set sceneParams(0.3f, 10, 0.015f, 0.1f, 50.0f, false)
-    +- trackerConfig = "path/to/ground_truth_pose/%04i.txt"
+Utils/ITMLibSetting.cpp \
+    +- Set sceneParams(0.3f, 10, 0.015f, 0.1f, 50.0f, false) \
+    +- trackerConfig = "path/to/ground_truth_pose/%04i.txt" \
 
 
-Utils/ITMMath.h
-    +- Add one more vector type: Vector12f, used for store prob(float) of 12 classes
-    +- Add one more vector type: Vector12us, used for store raw prob(uint16) of 12 classes
+Utils/ITMMath.h \
+    +- Add one more vector type: Vector12f, used for store prob(float) of 12 classes \
+    +- Add one more vector type: Vector12us, used for store raw prob(uint16) of 12 classes \
 
 
 Utils/ITMImageTypes.h
